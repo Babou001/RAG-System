@@ -28,8 +28,8 @@ Une application complète alliant **extraction de connaissances** et **générat
 
 ```bash
 # 1) Cloner le dépôt
-git clone <votre‑repo>.git
-cd <votre‑repo>
+git clone https://github.com/Babou001/RAG-System.git
+cd RAG-System
 
 # 2) Créer un environnement virtuel (optionnel mais recommandé)
 python -m venv .venv
