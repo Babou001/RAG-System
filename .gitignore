@@ -1,0 +1,123 @@
+#Compliant with SOC 2, ISO 27001, GDPR, and HIPAA requirements
+/data
+/models
+/uploads
+/.pytest_cache
+/__pycache__
+/saved_models
+/prepocessed_data
+/.streamlit
+/videos
+# Environment variables and configuration files
+.env
+.env.*
+!.env.example
+config/secrets.json
+config/production.json
+config/staging.json
+secrets/
+private/
+confidential/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+.pnp
+.pnp.js
+
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+.yarn/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# IDE and editor files
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.temp
+
+# Test coverage reports
+coverage/
+.nyc_output/
+*.lcov
+junit.xml
+test-results/
+.coverage
+htmlcov/
+
+# Application logs
+logs/
+application.log
+error.log
+access.log
+security.log
+audit.log
+
+# Monitoring data
+monitoring/data/
+metrics/
+performance-logs/
+health-check-logs/
+
+# Security scan results
+security-report.json
+vulnerability-report.json
+dependency-check-report.json
+snyk-report.json
+sonarqube-report.json
+
+# PACKAGE MANAGER FILES
+# =============================================================================
+# npm
+.npmrc
+!.npmrc.example
+# Yarn
+.yarnrc
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+# pnpm
+.pnpm-store/
+.pnpm-debug.log
+# =============================================================================

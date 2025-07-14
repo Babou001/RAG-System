@@ -1,0 +1,28 @@
+# Core packages (originally conda-installed)
+numpy
+pandas
+scikit-learn
+rich
+spacy
+nltk
+
+# Pip‑only packages
+transformers
+sentence-transformers
+textblob
+rank-bm25
+markitdown
+torch
+gradio
+llama-cpp-python
+accelerate>=0.26.0
+langchain-huggingface
+tensorflow
+tf_keras
+matplotlib
+redis
+streamlit-pdf-viewer
+pytest
+opensearch-py
+uvicorn[standard]>=0.18.0
+streamlit

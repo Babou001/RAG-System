@@ -1,0 +1,33 @@
+name: rag
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.23.5
+  - pandas
+  - scikit-learn
+  - rich
+  - spacy
+  - nltk
+  - pip
+  - pip:
+      - transformers
+      - sentence-transformers
+      - textblob
+      - rank-bm25
+      - en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl#sha256=293e9547a655b25499198ab15a525b05b9407a75f10255e405e8c3854329ab63
+      - markitdown
+      - pymupdf
+      - torch
+      - gradio
+      - llama-cpp-python
+      - accelerate>=0.26.0
+      - langchain-huggingface
+      - tensorflow
+      - tf_keras
+      - matplotlib
+      - redis
+      - streamlit-pdf-viewer
+      - pytest
+      - opensearch-py
